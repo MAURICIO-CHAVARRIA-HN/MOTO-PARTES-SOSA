@@ -1,0 +1,12 @@
+.git
+.next
+backups
+capturas
+docs
+img
+node_modules
+playwright-report
+test-results
+test-results-demo
+tests
+*.tsbuildinfo

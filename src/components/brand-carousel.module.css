@@ -1,0 +1,27 @@
+.section { padding-block: 40px; border-bottom: 1px solid var(--border); }
+.heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.heading :global(.eyebrow) { font-size: 10px; margin-bottom: 5px; }
+.heading h2 { font-size: 22px; margin: 0; }
+.control { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 9px 13px; border: 1px solid var(--border); background: var(--surface); color: var(--muted); font-size: 12px; }
+.control:hover { border-color: var(--brand); color: var(--text); }
+.viewport { overflow-x: auto; overflow-y: hidden; margin-top: 24px; padding: 8px 0; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+.track.track { display: flex; width: max-content; animation: circulate 45s linear infinite; will-change: transform; }
+.list { display: flex; align-items: center; justify-content: space-around; flex-shrink: 0; gap: 48px; min-width: min(1320px, calc(100vw - 40px)); padding: 0 24px; }
+.list a { display: flex; align-items: center; gap: 14px; padding-block: 14px; font: italic 800 clamp(26px, 2.6vw, 38px)/1 var(--display); text-transform: uppercase; white-space: nowrap; color: var(--muted); transition: color .2s; }
+.list svg { color: var(--brand-text); }
+.list a:hover { color: var(--brand-text); }
+.track[data-paused="true"], .viewport:hover .track { animation-play-state: paused; }
+/* Reset to the real links for keyboard and touch, so every brand stays reachable. */
+.viewport:focus-within .track, .viewport:active .track { animation: none; transform: none; }
+@keyframes circulate { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@media (max-width: 620px) {
+  .section { padding-block: 28px; }
+  .heading h2 { font-size: 19px; }
+  .heading :global(.eyebrow) { font-size: 8px; }
+  .control span { display: none; }
+  .list { gap: 32px; padding-inline: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .track.track { animation: none; transform: none; will-change: auto; }
+  .list[aria-hidden="true"], .control { display: none; }
+}

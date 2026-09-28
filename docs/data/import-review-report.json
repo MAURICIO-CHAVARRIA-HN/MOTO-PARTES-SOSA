@@ -1,0 +1,304 @@
+{
+  "dry_run": false,
+  "candidates": 33,
+  "categories": [
+    {
+      "name": "Filtros",
+      "slug": "filtros",
+      "provisional": true
+    },
+    {
+      "name": "Bujias",
+      "slug": "bujias",
+      "provisional": true
+    },
+    {
+      "name": "Frenos (pastillas y discos)",
+      "slug": "frenos-pastillas-y-discos",
+      "provisional": true
+    },
+    {
+      "name": "Transmisión (cadena y piñones)",
+      "slug": "transmision-cadena-y-pinones",
+      "provisional": true
+    },
+    {
+      "name": "Llantas",
+      "slug": "llantas",
+      "provisional": true
+    },
+    {
+      "name": "Embrague y motor",
+      "slug": "embrague-y-motor",
+      "provisional": true
+    },
+    {
+      "name": "Accesorios e iluminación",
+      "slug": "accesorios-e-iluminacion",
+      "provisional": true
+    }
+  ],
+  "brands": [
+    {
+      "name": "KMS (línea propia de KM Motos)",
+      "slug": "kms-linea-propia-de-km-motos",
+      "provisional": false
+    },
+    {
+      "name": "KMS",
+      "slug": "kms",
+      "provisional": false
+    },
+    {
+      "name": "Xenkai",
+      "slug": "xenkai",
+      "provisional": false
+    },
+    {
+      "name": "NGK",
+      "slug": "ngk",
+      "provisional": false
+    },
+    {
+      "name": "RGK",
+      "slug": "rgk",
+      "provisional": false
+    },
+    {
+      "name": "RGK (iridium)",
+      "slug": "rgk-iridium",
+      "provisional": false
+    },
+    {
+      "name": "Champion",
+      "slug": "champion",
+      "provisional": false
+    },
+    {
+      "name": "por confirmar (genérica)",
+      "slug": "por-confirmar-generica-por-confirmar",
+      "provisional": true
+    },
+    {
+      "name": "por confirmar",
+      "slug": "por-confirmar-por-confirmar",
+      "provisional": true
+    },
+    {
+      "name": "MRF (patrón P99)",
+      "slug": "mrf-patron-p99",
+      "provisional": false
+    },
+    {
+      "name": "MRF (patrón P69)",
+      "slug": "mrf-patron-p69",
+      "provisional": false
+    },
+    {
+      "name": "MRF (patrón P154)",
+      "slug": "mrf-patron-p154",
+      "provisional": false
+    }
+  ],
+  "imported": [
+    {
+      "ref": 1,
+      "sku": "PEND-001",
+      "name": "Filtro de aceite para Bajaj NS200 / RS200 / AS200 / Dominar 400 / Pulsar NS",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 2,
+      "sku": "PEND-002",
+      "name": "Filtro de aceite para GXT / KMF / GN125 / EN125 / Gixxer 150 / RE205",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 3,
+      "sku": "PEND-003",
+      "name": "Filtro de aceite para FZ250 / YZ250 / YZ450 / XTZ250 / YBR250 / R15",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 4,
+      "sku": "PEND-004",
+      "name": "Filtro de aceite centrifugo para CG125 / HJ / XM200 / CG150 / CG200",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 5,
+      "sku": "PEND-005",
+      "name": "Bujía NGK C7HSA",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 6,
+      "sku": "PEND-006",
+      "name": "Bujía NGK D8EA (candela)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 7,
+      "sku": "PEND-007",
+      "name": "Bujía RGK CR7EA (YBR / XTZ / DS150 / AX4)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 8,
+      "sku": "PEND-008",
+      "name": "Bujía RGK CR9EA lateral Iridium (PS135 / PS180 / FZ16 / NS200)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 9,
+      "sku": "PEND-009",
+      "name": "Bujía Champion PRZ7HC-E (CR7HSA)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 10,
+      "sku": "PEND-010",
+      "name": "Bujía Champion RG4HC (CR8E)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 11,
+      "sku": "PEND-011",
+      "name": "Pastillas de freno delanteras universales (FZ16 / NS / Pulsar / DRZ / XR150)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 12,
+      "sku": "PEND-012",
+      "name": "Pastillas de freno delanteras XL200 / PS135 / FZ / NS200",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 13,
+      "sku": "PEND-013",
+      "name": "Pastillas de freno CBF125 / Unicorn / CBF150 / Hero125",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 14,
+      "sku": "PEND-014",
+      "name": "Pastillas de freno DRZ400 / Falcon400 / GXT250R / ZX250R",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 15,
+      "sku": "PEND-015",
+      "name": "Disco de freno delantero 150Z / CR1",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 16,
+      "sku": "PEND-016",
+      "name": "Disco de freno delantero CB190 (Honda)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 17,
+      "sku": "PEND-017",
+      "name": "Disco de freno Apache RTR 180/160",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 18,
+      "sku": "PEND-018",
+      "name": "Kit de tracción catarina y cadena 14/39 para Pulsar NS200 / AS200",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 19,
+      "sku": "PEND-019",
+      "name": "Kit de tracción 420 (15/42, 122 eslabones) para Discover / Platina / XCD125",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 20,
+      "sku": "PEND-020",
+      "name": "Kit de tracción 428 (15/39, 124 eslabones) para FT150 / ET150 Cargo / Serpento / FT125",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 21,
+      "sku": "PEND-021",
+      "name": "Cadena de tracción reforzada 428-124 eslabones",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 22,
+      "sku": "PEND-022",
+      "name": "Llanta 100/80-17 (P99, 4PR, TT)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 23,
+      "sku": "PEND-023",
+      "name": "Llanta lisa 100/90-18 (P69, 6PR, TT)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 24,
+      "sku": "PEND-024",
+      "name": "Llanta tractora 110/100-18 (P154, 6PR, TT)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 25,
+      "sku": "PEND-025",
+      "name": "Set de discos de clutch (7 discos) para RE 205",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 26,
+      "sku": "PEND-026",
+      "name": "Set de discos de clutch (6 discos) para Pulsar UG4",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 27,
+      "sku": "PEND-027",
+      "name": "Árbol de levas para Pulsar 180 digital/UG3 y Pulsar 150 UG3",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 28,
+      "sku": "PEND-028",
+      "name": "Maletas viajeras para motos (alforjas)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 29,
+      "sku": "PEND-029",
+      "name": "Capote de lluvia impermeable talla XL",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 30,
+      "sku": "PEND-030",
+      "name": "Chaleco reflectivo",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 31,
+      "sku": "PEND-031",
+      "name": "Gafas polarizadas para casco (colores)",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 32,
+      "sku": "PEND-032",
+      "name": "Luz LED M9 set bicolor",
+      "action": "insertado/actualizado"
+    },
+    {
+      "ref": 33,
+      "sku": "PEND-033",
+      "name": "Foco de stop (bombilla) S25 12V 21/5W",
+      "action": "insertado/actualizado"
+    }
+  ],
+  "skipped": []
+}

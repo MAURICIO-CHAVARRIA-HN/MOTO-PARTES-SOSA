@@ -1,0 +1,215 @@
+.catalog:global(.catalog-layout) {
+  gap: 28px;
+}
+
+.catalog :global(.catalog-filters) {
+  padding: 22px;
+  border-radius: 10px;
+  border-top: 3px solid var(--brand);
+  background: var(--surface);
+}
+
+.catalog :global(.filter-title) h2 {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.catalog :global(.filter-title) h2 svg {
+  flex-shrink: 0;
+  color: var(--brand);
+}
+
+.catalog :global(.filter-title) button {
+  font-size: 11px;
+  min-height: 36px;
+}
+
+.catalog :global(.catalog-filters) > label {
+  font-size: 12px;
+}
+
+.catalog :global(.catalog-filters) > select {
+  min-height: 44px;
+  margin-bottom: 22px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.catalog :global(.filter-help) {
+  margin-top: 2px;
+  padding-top: 19px;
+}
+
+.catalog :global(.filter-help) strong {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.catalog :global(.filter-help) p,
+.catalog :global(.filter-help) a {
+  font-size: 12px;
+}
+
+.catalog :global(.catalog-search) {
+  min-height: 56px;
+  padding-inline: 17px 10px;
+  gap: 12px;
+  background: var(--surface);
+  border-radius: 8px;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.catalog :global(.catalog-search):focus-within {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand) 12%, transparent);
+}
+
+.catalog :global(.catalog-search) > svg {
+  color: var(--brand);
+  flex-shrink: 0;
+}
+
+.catalog :global(.catalog-search) input {
+  min-width: 0;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.catalog :global(.catalog-search) :global(.icon-button) {
+  flex-shrink: 0;
+}
+
+.catalog :global(.results-toolbar) {
+  min-height: 44px;
+  margin-block: 13px 21px;
+  font-size: 12px;
+}
+
+.catalog :global(.results-toolbar) strong {
+  color: var(--text);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.catalog :global(.results-toolbar) label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.catalog :global(.results-toolbar) select {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  min-height: 40px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.activeFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.filterChip {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  gap: 8px;
+  padding: 7px 10px;
+  min-height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  font-size: 11px;
+  text-align: left;
+  transition: border-color 180ms ease;
+}
+
+.filterChip:hover { border-color: var(--brand); }
+.filterChip span { overflow-wrap: anywhere; }
+.filterChip svg { flex-shrink: 0; }
+
+.filterCount {
+  display: grid;
+  place-items: center;
+  min-width: 23px;
+  height: 23px;
+  border-radius: 4px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 11px;
+}
+
+.applyFilters { display: none; }
+
+.resultProgress {
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.catalog :global(.load-more) {
+  min-width: 215px;
+  margin-top: 16px;
+}
+
+.empty:global(.empty-state) {
+  min-height: 380px;
+  padding: 40px 24px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  background: var(--subtle);
+}
+
+.emptyIcon {
+  display: grid;
+  place-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--brand);
+}
+
+.empty p {
+  max-width: 440px;
+  font-size: 14px;
+}
+
+@media (max-width: 1100px) and (min-width: 621px) {
+  .catalog:global(.catalog-layout) { grid-template-columns: 200px minmax(0, 1fr); gap: 20px; }
+  .catalog :global(.catalog-grid) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .catalog :global(.catalog-filters) { padding: 17px; }
+}
+
+@media (max-width: 620px) {
+  .catalog :global(.filter-toggle) {
+    min-height: 48px;
+    justify-content: flex-start;
+    padding-inline: 17px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  .filterCount { margin-left: auto; }
+  .catalog :global(.catalog-filters) > select { font-size: 16px; }
+  .catalog .applyFilters { display: flex; width: 100%; margin-top: 20px; font-size: 13px; }
+  .catalog :global(.catalog-search) { min-height: 52px; padding-inline: 13px 5px; gap: 8px; }
+  .catalog :global(.catalog-search) input { font-size: 16px; }
+  .catalog :global(.results-toolbar) { gap: 8px; font-size: 11px; flex-wrap: wrap; }
+  .catalog :global(.results-toolbar) label { gap: 5px; }
+  .catalog :global(.results-toolbar) select { font-size: 12px; padding-inline: 5px; }
+  .catalog :global(.catalog-grid) { gap: 12px; }
+  .filterChip { min-height: 40px; }
+  .empty:global(.empty-state) { min-height: 320px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .catalog :global(.catalog-search), .filterChip { transition: none; }
+}

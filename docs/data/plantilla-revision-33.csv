@@ -1,0 +1,34 @@
+﻿reference_id;sku_provisional;name_draft;category_reference;brand_reference;reference_price_hnl;source_url;source_name;source_note;source_checked_at
+1;PEND-001;Filtro de aceite para Bajaj NS200 / RS200 / AS200 / Dominar 400 / Pulsar NS;Filtros;KMS (línea propia de KM Motos);50;https://www.kmmotos.com/products/filtro-de-aceite-ns200-rs200-as200-dominar-400-250-pulsar-n250-n160-pulsar-ns400z-ktm-duke;KM Motos;;2026-09-21
+2;PEND-002;Filtro de aceite para GXT / KMF / GN125 / EN125 / Gixxer 150 / RE205;Filtros;KMS;30;https://www.kmmotos.com/products/filtro-de-aceite-gxt200-kmf-en125-gn-125-xtm200-gn125-f-apache-dr200-an125-gixxer-150-rks-125-150-re205-kms;KM Motos;;2026-09-21
+3;PEND-003;Filtro de aceite para FZ250 / YZ250 / YZ450 / XTZ250 / YBR250 / R15;Filtros;KMS;25;https://www.kmmotos.com/products/filtro-de-aceite-fz250-yz250-yz450-xtz250-ybr250-r15-wr250-wr450-criptom-kms;KM Motos;;2026-09-21
+4;PEND-004;Filtro de aceite centrifugo para CG125 / HJ / XM200 / CG150 / CG200;Filtros;Xenkai;120;https://www.kmmotos.com/collections/filtro-de-aceite-2;KM Motos;(ficha exacta por confirmar con proveedor: XTK-XEN0131);2026-09-21
+5;PEND-005;Bujía NGK C7HSA;Bujias;NGK;60;https://www.kmmotos.com/collections/bujia-de-motor;KM Motos;(SKU KM-YAB0034/KM-CAF0003);2026-09-21
+6;PEND-006;Bujía NGK D8EA (candela);Bujias;NGK;60;https://www.kmmotos.com/collections/bujia-de-motor;KM Motos;(SKU KM-FB0162/KM-CAF0002);2026-09-21
+7;PEND-007;Bujía RGK CR7EA (YBR / XTZ / DS150 / AX4);Bujias;RGK;50;https://www.kmmotos.com/collections/bujia-de-motor;KM Motos;(SKU KMS-RGK0001);2026-09-21
+8;PEND-008;Bujía RGK CR9EA lateral Iridium (PS135 / PS180 / FZ16 / NS200);Bujias;RGK (iridium);120;https://www.kmmotos.com/collections/bujia-de-motor;KM Motos;(SKU KMS-RGK0004);2026-09-21
+9;PEND-009;Bujía Champion PRZ7HC-E (CR7HSA);Bujias;Champion;62.54;https://www.motofixhn.com/catalogo;Motofix Honduras;"(sección Bujias; ficha por confirmar)";2026-09-21
+10;PEND-010;Bujía Champion RG4HC (CR8E);Bujias;Champion;71.94;https://www.motofixhn.com/catalogo;Motofix Honduras;"(sección Bujias; ficha por confirmar)";2026-09-21
+11;PEND-011;Pastillas de freno delanteras universales (FZ16 / NS / Pulsar / DRZ / XR150);Frenos (pastillas y discos);por confirmar (genérica);165.6;https://www.motofixhn.com/catalogo;Motofix Honduras;(sección Frenos);2026-09-21
+12;PEND-012;Pastillas de freno delanteras XL200 / PS135 / FZ / NS200;Frenos (pastillas y discos);KMS;70;https://www.kmmotos.com/products/pastillas-de-freno-xl200-ps135-discovery-fz-ns200-del-kms;KM Motos;;2026-09-21
+13;PEND-013;Pastillas de freno CBF125 / Unicorn / CBF150 / Hero125;Frenos (pastillas y discos);KMS;80;https://www.kmmotos.com/collections/pastillas-de-freno;KM Motos;(SKU KM-EP0062);2026-09-21
+14;PEND-014;Pastillas de freno DRZ400 / Falcon400 / GXT250R / ZX250R;Frenos (pastillas y discos);KMS;70;https://www.kmmotos.com/collections/pastillas-de-freno;KM Motos;(SKU KM-AP0060);2026-09-21
+15;PEND-015;Disco de freno delantero 150Z / CR1;Frenos (pastillas y discos);por confirmar;580;https://www.kmmotos.com/collections/disco-de-freno;KM Motos;;2026-09-21
+16;PEND-016;Disco de freno delantero CB190 (Honda);Frenos (pastillas y discos);por confirmar;680;https://www.kmmotos.com/collections/disco-de-freno;KM Motos;;2026-09-21
+17;PEND-017;Disco de freno Apache RTR 180/160;Frenos (pastillas y discos);por confirmar;630;https://www.kmmotos.com/collections/disco-de-freno;KM Motos;;2026-09-21
+18;PEND-018;Kit de tracción catarina y cadena 14/39 para Pulsar NS200 / AS200;Transmisión (cadena y piñones);por confirmar;1492.47;https://www.motofixhn.com/producto/36JL0009;Motofix Honduras;;2026-09-21
+19;PEND-019;Kit de tracción 420 (15/42, 122 eslabones) para Discover / Platina / XCD125;Transmisión (cadena y piñones);por confirmar;414.54;https://www.motofixhn.com/producto/KTDISCOV-15%2F42TH-ELP;Motofix Honduras;;2026-09-21
+20;PEND-020;Kit de tracción 428 (15/39, 124 eslabones) para FT150 / ET150 Cargo / Serpento / FT125;Transmisión (cadena y piñones);por confirmar;403.87;https://www.motofixhn.com/producto/KTFT-15%2F39TH-ELP;Motofix Honduras;;2026-09-21
+21;PEND-021;Cadena de tracción reforzada 428-124 eslabones;Transmisión (cadena y piñones);por confirmar;211.07;https://www.motofixhn.com/producto/428H-124;Motofix Honduras;;2026-09-21
+22;PEND-022;Llanta 100/80-17 (P99, 4PR, TT);Llantas;MRF (patrón P99);1028.97;https://www.motofixhn.com/producto/100%2F80-17+P99;Motofix Honduras;;2026-09-21
+23;PEND-023;Llanta lisa 100/90-18 (P69, 6PR, TT);Llantas;MRF (patrón P69);1087.67;https://www.motofixhn.com/producto/100%2F90-18+P69;Motofix Honduras;;2026-09-21
+24;PEND-024;Llanta tractora 110/100-18 (P154, 6PR, TT);Llantas;MRF (patrón P154);1448.59;https://www.motofixhn.com/producto/110%2F100-18+P154;Motofix Honduras;;2026-09-21
+25;PEND-025;Set de discos de clutch (7 discos) para RE 205;Embrague y motor;por confirmar;317.4;https://www.motofixhn.com/producto/165FC00375;Motofix Honduras;;2026-09-21
+26;PEND-026;Set de discos de clutch (6 discos) para Pulsar UG4;Embrague y motor;por confirmar;267.12;https://www.motofixhn.com/producto/520AM01928;Motofix Honduras;;2026-09-21
+27;PEND-027;Árbol de levas para Pulsar 180 digital/UG3 y Pulsar 150 UG3;Embrague y motor;por confirmar;634.8;https://www.motofixhn.com/producto/520AM00357;Motofix Honduras;;2026-09-21
+28;PEND-028;Maletas viajeras para motos (alforjas);Accesorios e iluminación;KMS;1200;https://www.kmmotos.com/;KM Motos;(SKU KMS-MMC0067);2026-09-21
+29;PEND-029;Capote de lluvia impermeable talla XL;Accesorios e iluminación;KMS;580;https://www.kmmotos.com/;KM Motos;(SKU KM-FC0187-3);2026-09-21
+30;PEND-030;Chaleco reflectivo;Accesorios e iluminación;KMS;50;https://www.kmmotos.com/;KM Motos;(SKU KMS-HND2192);2026-09-21
+31;PEND-031;Gafas polarizadas para casco (colores);Accesorios e iluminación;KMS;120;https://www.kmmotos.com/;KM Motos;(SKU KMS-HND0803-1);2026-09-21
+32;PEND-032;Luz LED M9 set bicolor;Accesorios e iluminación;KMS;580;https://www.kmmotos.com/;KM Motos;(SKU KMS-HND2193);2026-09-21
+33;PEND-033;Foco de stop (bombilla) S25 12V 21/5W;Accesorios e iluminación;KMS;15;https://www.kmmotos.com/collections/luz-de-stop;KM Motos;(SKU KMS-HND3164);2026-09-21
